@@ -22,7 +22,7 @@ class UsersTable extends Table
         $v->maxLength('firstname', 55);
         $v->notEmptyString('lastname');
         $v->maxLength('lastname', 55);
-        $v->allowEmptyString('bio');
+        $v->allowEmptyString('biography');
         $v->allowEmptyDate('birthdate');
         return $v;
     }

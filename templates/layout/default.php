@@ -42,7 +42,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </div>
         <div class="top-nav-links">
             <?= $this->Html->link('Liste des Utilisateurs', ['controller' => 'Users', 'action' => 'index']) ?>
-            <?= $this->Html->link('Ajouter une Utilisateur', ['controller' => 'Users', 'action' => 'new']) ?>
+            <?= $this->Html->link('Ajouter un Utilisateur', ['controller' => 'Users', 'action' => 'new']) ?>
         </div>
     </nav>
     <main class="main">

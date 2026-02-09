@@ -3,15 +3,15 @@
 <h1>
     <?= $p->firstname ?> <?= $p->lastname ?>
 </h1>
-<?php if (!empty($p->bio)): ?>
+<?php if (!empty($p->biography)): ?>
     <p>
-        <?= $p->bio ?>
+        <?= $p->biography ?>
     </p>
 <?php endif; ?>
 
 <p>
     Né(e) le :
-    <?= $p->birthdate ?>
+    <?= $p->birthdate ? $p->birthdate->i18nFormat('dd/MM/yyyy') : 'Inconnue' ?>
 </p>
 
 <p>
