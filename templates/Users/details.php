@@ -11,7 +11,7 @@
 
 <p>
     Né(e) le :
-    <?= $p->birthdate ? $p->birthdate->i18nFormat('dd/MM/yyyy') : 'Inconnue' ?>
+    <?= $p->birthday ? $p->birthday->i18nFormat('dd/MM/yyyy') : 'Inconnue' ?>
 </p>
 
 <p>
